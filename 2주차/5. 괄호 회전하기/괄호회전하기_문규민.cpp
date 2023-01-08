@@ -72,14 +72,3 @@ int solution(string s) {
     }
     return count;
 }
-
-int main()
-{
-    string s = "(){[()]}][";
-
-    cout << solution(s);
-}
-
-
-
-
