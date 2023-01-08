@@ -89,16 +89,6 @@ int main()
 		}
 	}
 
-	// 입력 제대로 됐는지 출력해보기
-	/*for (int i = 0; i < 5; i++)
-	{
-		for (int j = 0; j < 5; j++)
-		{
-			cout << get<2>(arr[i * 5 + j]);
-		}
-		cout << endl;
-	}*/
-
 	// 현재 위치 입력하기
 	int y, x;
 	cin >> y;
