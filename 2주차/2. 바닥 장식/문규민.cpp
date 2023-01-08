@@ -98,7 +98,7 @@ int main()
 		for (int j = 0; j < x; j++)
 		{
 			arr[i * x + j] = tiic(i, j, input[j]);	// arr[i * x + j] : 2차원 배열에서 y 좌표가 i이고 x 좌표가 j일 때, 모든 칸을 1차원 배열로 만들었을 경우의 인덱스
-		}											// 한 행의 길이가 x 이므로, y가 i일 때 i * x를 해주어야 함! (i * y 아니다!)
+		}						// 한 행의 길이가 x 이므로, y가 i일 때 i * x를 해주어야 함! (i * y 아니다!)
 	}
 	
 	BFS(y, x, arr);
