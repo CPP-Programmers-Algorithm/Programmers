@@ -6,20 +6,11 @@
     <ol>
         <li>
             <a href="https://velog.io/@kohyeonseo1006/C-Programmers-%EC%88%9C%EC%9C%84">고현서 문제 설명 링크</a>
+            <a href="https://velog.io/@kohyeonseo1006/C-Programmers-%EC%88%9C%EC%9C%84">고현서 문제 설명 링크</a>
+            <a href="https://velog.io/@kohyeonseo1006/C-Programmers-%EC%88%9C%EC%9C%84">고현서 문제 설명 링크</a>
+            <a href="https://velog.io/@kohyeonseo1006/C-Programmers-%EC%88%9C%EC%9C%84">고현서 문제 설명 링크</a>
         </li>
         
-        <li>
-            <a href="https://velog.io/@kohyeonseo1006/C-Programmers-%EC%88%9C%EC%9C%84">고현서 문제 설명 링크</a>
-        </li>
-        <li>
-            <a href="https://velog.io/@kohyeonseo1006/C-Programmers-%EC%88%9C%EC%9C%84">고현서 문제 설명 링크</a>
-        </li>
-        <li>
-            <a href="https://velog.io/@kohyeonseo1006/C-Programmers-%EC%88%9C%EC%9C%84">고현서 문제 설명 링크</a>
-        </li>
-        <li>
-            <a href="https://velog.io/@kohyeonseo1006/C-Programmers-%EC%88%9C%EC%9C%84">고현서 문제 설명 링크</a>
-        </li>
     </ol>
 </details>
 
