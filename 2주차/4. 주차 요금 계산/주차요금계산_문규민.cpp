@@ -88,15 +88,3 @@ vector<int> solution(vector<int> fees, vector<string> records)
 
     return result;
 }
-
-int main()
-{
-    vector<int> fees = { 1, 461, 1, 10 };
-    vector<string> records = { "00:00 1234 IN" };
-
-    solution(fees, records);
-}
-
-
-
-
