@@ -14,11 +14,7 @@ void DFS(int y, int x, vector<tiii> arr, int depth, int count)
 
 	int currentDepth = depth;
 	int currentCount = count;
-
-	/*cout << y << " " << x << endl;
-	cout << currentDepth << " ";
-	cout << currentCount << endl << endl;*/
-
+	
 	if (depth <= 3 && count >= 2)
 	{
 		isMoreThan2 = true;
