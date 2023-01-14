@@ -1,4 +1,5 @@
 # Programmers
+
 ### 프로그래머스 알고리즘 문제 풀이
 
 ## <b>문제 설명 Link</b>
@@ -12,13 +13,21 @@
         </ol>
 </details>
 <details>
+    <summary>코딩 테스트 공부 (Level 3)</summary>
+        <ol>
+            <li>
+                <a href="https://velog.io/@lhr4884/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%BD%94%EB%94%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B3%B5%EB%B6%80-%ED%92%80%EC%9D%B4-2022-KAKAO-TECH-INTERNSHIP">이하령 문제 설명 링크</a>
+            </li>
+        </ol>
+</details>
+<details>
     <summary>[1차] 비밀지도 (Level 1)</summary>
         <ol>
             <li>
                 <a href="https://velog.io/@kohyeonseo1006/C-Programmers-1%EC%B0%A8-%EB%B9%84%EB%B0%80%EC%A7%80%EB%8F%84">고현서 문제 설명 링크</a>
             </li>
         </ol>
-</details>      
+</details>
 
 ### 백준 알고리즘 문제 풀이
 
@@ -38,5 +47,8 @@
             <li>
                 <a href="https://velog.io/@kohyeonseo1006/C-%EB%B0%B1%EC%A4%801889-%EC%84%A0%EB%AC%BC%EA%B5%90%ED%99%98">고현서 문제 설명 링크</a>
             </li>
+            <li>
+                <a href="https://velog.io/@lhr4884/BOJ-1889-%EC%84%A0%EB%AC%BC-%EA%B5%90%ED%99%98-%ED%92%80%EC%9D%B4-C">이하령 문제 설명 링크</a>
+            </li>
         </ol>
-</details>      
+</details>
