@@ -3,6 +3,12 @@
 using namespace std;
 
 //N번째큰수 // 시간초과 ㅠㅠ
+
+// priority queue
+// 모든 원소 중 가장 큰 수를 top에 유지시킨다
+// top -> 요소 중 가장 값을 반환한다 
+// pop -> top의 요소를 제거한다
+
 int main() {
     priority_queue<int, vector<int>, greater<int>>pq;
     vector<int> skipline;

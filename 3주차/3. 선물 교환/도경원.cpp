@@ -5,7 +5,14 @@
 using namespace std;
 
 // 출력초과 // 정답은 맞음
+void init() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
+}
+
 int main() {
+    init();
     int sCount;
     string answer = "";
 
@@ -63,7 +70,7 @@ int main() {
     }
 
     answer.append(to_string(sCount));
-    if (sCount == 0) { return 0; }                  // 성공학생이 없으면 여기서 끝냄
+    if (sCount == 0) { cout << answer; return 0; }                  // 성공학생이 없으면 여기서 끝냄
 
 
     answer.append("\n");
