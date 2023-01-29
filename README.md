@@ -32,7 +32,7 @@
     <summary>도경원 벨로그</summary>
         <ol>
             <li>
-                <a href="[https://velog.io/@kohyeonseo1006/C-Programmers-1%EC%B0%A8-%EB%B9%84%EB%B0%80%EC%A7%80%EB%8F%84](https://velog.io/@obdo/series/programmersC)">도경원 문제 설명 링크</a>
+                <a href="[[https://velog.io/@kohyeonseo1006/C-Programmers-1%EC%B0%A8-%EB%B9%84%EB%B0%80%EC%A7%80%EB%8F%84](https://velog.io/@obdo/series/programmersC)](https://velog.io/@obdo/series/programmersC)">도경원 문제 설명 링크</a>
             </li>
         </ol>
 </details>
