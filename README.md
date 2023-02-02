@@ -60,3 +60,13 @@
             </li>
         </ol>
 </details>
+
+
+<details>
+    <summary>최대 상승 (Silver 5)</summary>
+        <ol>
+            <li>
+                <a href="https://velog.io/@kohyeonseo1006/C-BOJ-25644-%EC%B5%9C%EB%8C%80-%EC%83%81%EC%8A%B9">고현서 문제 설명 링크</a>
+            </li>
+        </ol>
+</details>    
