@@ -29,6 +29,5 @@ int main()
 	int n = 8;
 	vector<int> stations = { 3, 4 };
 	int w = 1;
-
 	cout << solution(n, stations, w);
 }
