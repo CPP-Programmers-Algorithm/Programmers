@@ -7,4 +7,3 @@
 |         [Ezreal 여눈부터 가네 ㅈㅈ](https://www.acmicpc.net/problem/20500)         |  Gold 5  |               dp               |
 |   [경주로 건설](https://school.programmers.co.kr/learn/courses/30/lessons/67259)   | Level 3  |       2020 카카오 인턴십       |
 | [징검다리 건너기](https://school.programmers.co.kr/learn/courses/30/lessons/64062) | Level 3  | 2019 카카오 개발자 겨울 인턴십 |
-|                                                                                    |
