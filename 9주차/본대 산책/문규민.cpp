@@ -17,7 +17,7 @@ long long solution()
 	dp[0][0] = 1;
 
 	// i번 건물에 j분에 도착하는 경우의 수는 (i번 건물에 연결된 건물들에 i-1분에 도착하는 경우의 수의 합)
-	for (int i = 1; i <= n + 1; i++)
+	for (int i = 1; i <= n; i++)
 	{
 		dp[0][i] = (dp[1][i - 1] + dp[2][i - 1]) % MOD;
 		dp[1][i] = (dp[0][i - 1] + dp[2][i - 1] + dp[3][i - 1]) % MOD;
