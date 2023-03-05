@@ -1,8 +1,6 @@
 ﻿#include <iostream>
 #include <vector>
 #include <algorithm>
-#include <queue>
-#include <tuple>
 #include <cmath>
 #include <string>
 #include <list>
