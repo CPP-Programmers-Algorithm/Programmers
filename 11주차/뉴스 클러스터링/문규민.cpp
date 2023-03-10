@@ -86,15 +86,3 @@ int solution(string str1, string str2)
 	else
 		return (((double)intersectionCnt / (double)unionCnt) * 65536);
 }
-
-int main()
-{
-	ios::sync_with_stdio(false);
-	cin.tie(nullptr); cout.tie(nullptr);
-
-	string str1, str2;
-	str1 = "FRANCE";
-	str2 = "french";
-
-	cout << solution(str1, str2);
-}
