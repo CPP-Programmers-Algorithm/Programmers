@@ -1,3 +1,5 @@
+// PRG_합승택시요금
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -58,13 +60,13 @@ int main() {
     cout<<solution(6, 4, 6, 2, fares);
 }
 
-
+#pragma region note
 // const쓸때 주의할점
 //https://ladun.tistory.com/19#:~:text=%ED%95%A8%EC%88%98%EC%9D%98%20%EB%A7%A4%EA%B0%9C%EB%B3%80%EC%88%98%EC%97%90%20const%EB%A5%BC%20%EB%B6%99%EC%9D%B4%EB%A9%B4%20%EB%A7%A4%EA%B0%9C%EB%B3%80%EC%88%98%EC%9D%98%20%EA%B0%92%EC%9D%84%20%EB%B3%80%EA%B2%BD%ED%95%A0%20%EC%88%98,%EB%A7%A4%EA%B0%9C%EB%B3%80%EC%88%98%EC%97%90%20%EC%A0%81%EC%9A%A9%EC%8B%9C%ED%82%A4%EB%8A%94%20%EA%B2%83%EC%9D%B4%EB%8B%A4.%20%EB%A7%A4%EA%B0%9C%EB%B3%80%EC%88%98%EA%B0%80%20%EB%B3%80%EA%B2%BD%EB%90%98%EB%A9%B4%20%EC%95%88%EB%90%98%EB%8A%94%20%EA%B2%BD%EC%9A%B0%EC%97%90%20%EC%82%AC%EC%9A%A9%EB%90%9C%EB%8B%A4.
 // segmentation fault (core dumped)
 // define 뒤에 ;넣지 말기
 
-
+//틀렸던 방법
 /*
 int solution(int n, int s, int a, int b, vector<vector<int>> fares) {
     int answer = 0;
@@ -82,3 +84,5 @@ int solution(int n, int s, int a, int b, vector<vector<int>> fares) {
     return answer;
 }
 */
+#pragma endregion
+

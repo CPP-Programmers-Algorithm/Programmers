@@ -1,3 +1,5 @@
+// BOJ1238 파티
+
 #include <iostream>
 #include <queue>
 #include <algorithm>
@@ -16,7 +18,7 @@ int n, m, x, s, e, t;
 
 // (i -> x) + (x -> i) 가장 큰 것 구하라
 
-
+//하나의 정점에서 다른 모든 정점으로의 최단거리
 void dijkstra(int start) {
 	priority_queue<pii, vector<pii>, greater<pii>> pq; //거리, 노드
 	pq.push(make_pair(0, start)); //거리, 노드
@@ -56,17 +58,17 @@ int main() {
 		for (int j = 1; j <= n; j++){
 			dst[j] = INF;
 		}
-		dijkstra(i); // 학생별로 거리를 구함
+		dijkstra(i); // 학생별로 거리를 구함, 출발점을 매개변수로 전달
 		ans[i] = dst[x]; // 목적지까기 가는 거리를 학생마다 저장
 	}
 
 	// x to i
 	for (int i = 1; i <= n; i++) dst[i] = INF;//다시 dst초기화
-	dijkstra(x);
+	dijkstra(x); //출발점을 x로 하고 모든 마을까지 최단거리 구함
 
 	// (i to x) + (x to i)
 	for (int i = 1; i <= n; i++){
-		ans[i] += dst[i];
+		ans[i] += dst[i]; // ans는 i to x 값 저장 중, 여기에 새로 갱신된 최단거리들 합해주기
 	}
 
 	cout << *max_element(ans + 1, ans + n + 1); // 1번요소 ~ n 번요소중 가장 큰 것 출력

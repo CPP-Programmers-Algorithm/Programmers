@@ -1,3 +1,5 @@
+// BOJ2252 줄세우기
+
 #include<iostream>
 #include<vector>
 #include<queue>
@@ -15,12 +17,12 @@ int main(void) {
 		int a, b;
 		cin >> a >> b;
 		adj[a].push_back(b); // a에 연결된 정점정보를 저장
-		deg[b]++; //indegree의 수를 높여준다
+		deg[b]++; //indegree의 수를 높여준다->부모의수
 	}
 	queue<int> q;
-	for (int i = 1; i <= n; i++) {
+	for (int i = 1; i <= n; i++) {	//초기상태설정
 		if (deg[i] == 0) q.push(i); //indegree가 없는 정점을 q에 넣는다
-	}
+	}								//아래서 이 과정이 반복된다 -> do while로도 해결가능
 	while (!q.empty()) {
 		int cur = q.front(); q.pop(); // indegree가 0인 정점을 가져온다
 		cout << cur << ' ';

@@ -1,4 +1,4 @@
-
+// BOJ4485 녹색옷입은애가젤다지
 
 
 // 내림차순 오름차순 
@@ -50,7 +50,7 @@ void dijkstra(int x, int y) {
 			if (!inRange(nextX, nextY))
 				continue;
 
-			int nextM = curM + arr[nextX][nextY];
+			int nextM = curM + arr[nextX][nextY]; //지금까지 지나온 총거리 + 고유의 거리값
 
 			if (dp[nextX][nextY] > nextM) {
 				dp[nextX][nextY] = nextM;
