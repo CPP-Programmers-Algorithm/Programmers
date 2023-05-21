@@ -6,6 +6,7 @@ using namespace std;
 //선언
 void init();
 pair<int,string> LCS(string& shortWord, string& longWord);
+
 //메인
 int main() {
 	init();
