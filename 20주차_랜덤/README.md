@@ -2,7 +2,6 @@
 
 | 문제 | 난이도 | 설명 |
 | :--: | :----: | :--: |
-
 | [제곱수의 합](https://www.acmicpc.net/problem/1699) | Silver 2 | 랜덤 |
 | [카드게임](https://www.acmicpc.net/problem/10835) | Gold 5 | 랜덤 |
 | [크리보드](https://www.acmicpc.net/problem/11058) | Gold 5 | 랜덤 |
