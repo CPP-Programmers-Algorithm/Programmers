@@ -9,10 +9,6 @@ void MatchNum(int &num) {
 }
 
 
-#include <iostream>
-
-using namespace std;
-
 int solution(int n, int a, int b)
 {
 	int answer = 0;
