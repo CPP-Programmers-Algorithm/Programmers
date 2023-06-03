@@ -1,5 +1,7 @@
 #include <string>
 #include <vector>
+
+//이전변환반복
 //문제핵심 : 숫자를 string으로 다룰 수 있나
 
 using namespace std;
