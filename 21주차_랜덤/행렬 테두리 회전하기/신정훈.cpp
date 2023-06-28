@@ -16,7 +16,6 @@ void DFS(int dir, int x, int y, int limitX, int limitY, int keep, int min)
 	{
 		if (nx <= limitX && ny <= limitY)
 		{
-
 			if (keep < min)
 			{
 				min = keep;
@@ -25,7 +24,6 @@ void DFS(int dir, int x, int y, int limitX, int limitY, int keep, int min)
 			int keepTemp = map[nx][ny];
 			map[nx][ny] = keep;
 			keep = keepTemp;
-
 			DFS(dir, nx, ny, limitX, limitY, keep, min);
 		}
 	}
@@ -33,7 +31,6 @@ void DFS(int dir, int x, int y, int limitX, int limitY, int keep, int min)
 	{
 		if (nx >= limitX && ny >= limitY)
 		{
-
 			if (keep < min)
 			{
 				min = keep;
@@ -42,7 +39,6 @@ void DFS(int dir, int x, int y, int limitX, int limitY, int keep, int min)
 			int keepTemp = map[nx][ny];
 			map[nx][ny] = keep;
 			keep = keepTemp;
-
 			DFS(dir, nx, ny, limitX, limitY, keep, min);
 		}
 	}
@@ -71,7 +67,6 @@ for (int i = 0; i < queries.size(); i++)
 		originKeep.push_back(map[queries[i][2]][queries[i][1]]);
 		for (int j = 0; j < 4; j++)
 		{
-
 			int x = 0;
 			int y = 0;
 			int limitX = 0;
@@ -79,7 +74,6 @@ for (int i = 0; i < queries.size(); i++)
 			int keep = 0;
 			if (j == 0)
 			{
-
 				x = queries[i][0];
 				y = queries[i][1];
 				limitX = queries[i][0];
@@ -116,6 +110,5 @@ for (int i = 0; i < queries.size(); i++)
 		mn = 1e9;
 		originKeep.clear();
 	}
-    
     return answer;
 }
